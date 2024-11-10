@@ -13,7 +13,7 @@ import {
   Text3D
 } from '@react-three/drei'
 
-export default function App() {
+export default function TextScene() {
 
   return (
     <Canvas shadows orthographic camera={{position: [10, 20, 20], zoom: 80}} gl={{preserveDrawingBuffer: true}}>

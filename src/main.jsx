@@ -1,6 +1,6 @@
 import {createRoot} from 'react-dom/client'
 import './index.css'
-import App from "./App.jsx";
+import TextScene from "./scenes/TextScene.jsx";
 
 function Overlay() {
   return (
@@ -17,7 +17,7 @@ function Overlay() {
 
 createRoot(document.getElementById('root')).render(
   <>
-    <App/>
+    <TextScene/>
     <Overlay/>
   </>
 )
