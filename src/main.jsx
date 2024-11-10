@@ -4,11 +4,11 @@ import App from "./App.jsx";
 
 function Overlay() {
   return (
-    <div style={{position: 'absolute', top: 0, left: 0, pointerEvents: 'none', width: '100%', height: '100%'}}>
-      <div style={{position: 'absolute', bottom: 30, left: 30, fontSize: '13px'}}>
+    <div className="absolute top-0 left-0 pointer-events-none w-full h-full">
+      <div className="absolute bottom-6 left-6">
         Zafiro12
         <br/>
-        Credit to <a href="https://pmnd.rs/" style={{fontWeight: 'bold', textDecoration: 'underline'}}>pmnd.rs</a> for
+        Credit to <a href="https://pmnd.rs/" className="font-bold underline">pmnd.rs</a> for
         the base code used.
       </div>
     </div>
