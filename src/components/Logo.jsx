@@ -5,7 +5,7 @@ export default function Logo({white = false, animate = false}) {
     const animationClass = animate ? "animate-bounce" : "";
 
     return (
-        <svg class={animationClass} width="48.34" height="58.594" viewBox="0 0 48.34 58.594"
+        <svg className={animationClass} width="48.34" height="58.594" viewBox="0 0 48.34 58.594"
              xmlns="http://www.w3.org/2000/svg">
             <g id="svgGroup" strokeLinecap="round" fillRule="evenodd" fontSize="9pt" stroke="#00000000"
                strokeWidth="0.25mm"

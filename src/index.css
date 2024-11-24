@@ -19,7 +19,9 @@ body,
 body {
     overscroll-behavior-y: none;
     background: #ffffff;
-    font-family: 'Inter var', sans-serif;
+    font-family: "Noto Serif Ahom", serif;
+    font-weight: 400;
+    font-style: normal;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     color: black;

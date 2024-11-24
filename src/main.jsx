@@ -2,7 +2,7 @@ import {createRoot} from 'react-dom/client'
 import './index.css'
 import {Analytics} from "@vercel/analytics/react";
 import {SpeedInsights} from "@vercel/speed-insights/react";
-import Load from "./components/Load.jsx";
+import Loading from "./components/Loading.jsx";
 
 function Overlay() {
     return (
@@ -16,7 +16,7 @@ function Overlay() {
 
 createRoot(document.getElementById('root')).render(
     <>
-        <Load/>
+        <Loading/>
         <Overlay/>
         <Analytics/>
         <SpeedInsights/>
